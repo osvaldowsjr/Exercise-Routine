@@ -42,7 +42,7 @@
     </dialog>
     <dialog
         android:id="@+id/saveWorkoutDialog"
-        android:name="com.schimidt.exerciseRoutine.ui.createWorkout.dialogs.SaveWorkoutDialog"
+        android:name="com.schimidt.exerciseRoutine.ui.createWorkout.dialogs.save.SaveWorkoutDialog"
         android:label="SaveWorkoutDialog"
         tools:layout="@layout/save_dialog" >
         <argument

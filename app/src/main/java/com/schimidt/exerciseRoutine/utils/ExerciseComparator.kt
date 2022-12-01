@@ -1,4 +1,4 @@
-package com.schimidt.exerciseRoutine.ui.createWorkout.adapter
+package com.schimidt.exerciseRoutine.utils
 
 import androidx.recyclerview.widget.DiffUtil
 import com.schimidt.exerciseRoutine.model.entity.Exercise

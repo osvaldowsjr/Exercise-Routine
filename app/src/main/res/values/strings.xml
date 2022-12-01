@@ -20,5 +20,13 @@
     <string name="instruction_label">Instruções</string>
     <string name="annotation_label">Anotações</string>
     <string name="reps_label">Repetições</string>
+    <string name="series_label">Séries</string>
+    <string name="reps_placeholder">Repetições: %1$s</string>
     <string name="weight_label">Carga</string>
+    <string name="weight_placeholder">Carga: %1$s</string>
+    <string name="series_placeholder">Séries: %1$s</string>
+    <string name="save_workout">Salvar o treino</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok_button">OK</string>
+    <string name="Info">Info</string>
 </resources>

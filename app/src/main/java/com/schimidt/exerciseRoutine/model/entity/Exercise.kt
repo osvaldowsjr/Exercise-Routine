@@ -17,7 +17,8 @@ data class Exercise(
     val instruction: String,
     var annotation: String,
     var reps: String,
-    var weight: String
+    var weight: String,
+    var series: String
 ) : Parcelable {
     override fun equals(other: Any?): Boolean {
         return this.name == (other as Exercise).name

@@ -37,7 +37,7 @@ class BottomNavBar @JvmOverloads constructor(
 
     @SuppressLint("UnsafeOptInUsageError")
     fun setBadgeOnEndIcon() {
-        BadgeUtils.attachBadgeDrawable(badge, binding.bottomNav, R.id.workout_list_fragment)
+        BadgeUtils.attachBadgeDrawable(badge, binding.bottomNav, R.id.workout)
         badge.isVisible = false
     }
 

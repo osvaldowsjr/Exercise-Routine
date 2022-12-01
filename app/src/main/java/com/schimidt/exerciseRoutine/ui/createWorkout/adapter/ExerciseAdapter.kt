@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import com.schimidt.exerciseRoutine.databinding.ExerciseItemBinding
 import com.schimidt.exerciseRoutine.model.entity.Exercise
+import com.schimidt.exerciseRoutine.utils.ExerciseComparator
 
 class ExerciseAdapter(private val dialogAction: (Exercise) -> Unit) :
     ListAdapter<Exercise, ExerciseViewHolder>(ExerciseComparator) {

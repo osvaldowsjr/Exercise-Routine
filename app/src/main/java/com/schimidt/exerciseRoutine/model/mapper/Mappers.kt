@@ -11,6 +11,6 @@ fun Exercise.toExerciseDto(): ExerciseDTO {
 
 fun ExerciseDTO.toExercise(): Exercise {
     return Exercise(
-        name, type, muscle, equip, diff, instruction, "", "", ""
+        name, type, muscle, equip, diff, instruction, "", "", "", ""
     )
 }

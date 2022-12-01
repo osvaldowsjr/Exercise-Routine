@@ -32,6 +32,7 @@ class ExerciseAddingDialog : BottomSheetDialogFragment(R.layout.exercise_adding_
             annotation.setText(exercise.annotation)
             muscle.setText(exercise.muscle)
             diff.setText(exercise.diff)
+            series.setText(exercise.series)
         }
     }
 
@@ -51,7 +52,8 @@ class ExerciseAddingDialog : BottomSheetDialogFragment(R.layout.exercise_adding_
                     binding.instruction.text.toString(),
                     binding.annotation.text.toString(),
                     binding.reps.text.toString(),
-                    binding.weight.text.toString()
+                    binding.weight.text.toString(),
+                    binding.series.text.toString()
                 )
             )
             dialog?.dismiss()
