@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/workout_list_fragment">
+
+    <fragment
+        android:id="@+id/workout_list_fragment"
+        android:name="com.schimidt.exerciseRoutine.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_creationFragment"
+            app:destination="@id/creation_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creation_fragment"
+        android:name="com.schimidt.exerciseRoutine.ui.createWorkout.CreationFragment"
+        android:label="CreationFragment"
+        tools:layout="@layout/creation_fragment">
+        <action
+            android:id="@+id/action_creation_fragment_to_exerciseAddingDialog"
+            app:destination="@id/exerciseAddingDialog" />
+        <argument
+            android:name="exercise"
+            android:defaultValue="@null"
+            app:argType="com.schimidt.exerciseRoutine.model.entity.Exercise"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_creation_fragment_to_saveWorkoutDialog"
+            app:destination="@id/saveWorkoutDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/exerciseAddingDialog"
+        android:name="com.schimidt.exerciseRoutine.ui.createWorkout.dialogs.ExerciseAddingDialog"
+        android:label="ExerciseAddingDialog"
+        tools:layout="@layout/exercise_adding_dialog">
+        <argument
+            android:name="exercise"
+            app:argType="com.schimidt.exerciseRoutine.model.entity.Exercise" />
+    </dialog>
+    <dialog
+        android:id="@+id/saveWorkoutDialog"
+        android:name="com.schimidt.exerciseRoutine.ui.createWorkout.dialogs.SaveWorkoutDialog"
+        android:label="SaveWorkoutDialog"
+        tools:layout="@layout/save_dialog" >
+        <argument
+            android:name="arrayOfExercise"
+            app:argType="com.schimidt.exerciseRoutine.model.entity.Exercise[]" />
+    </dialog>
+</navigation>

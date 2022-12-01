@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="day_background">#E0E0E0</color>
+    <color name="day_red">#A30000</color>
+    <color name="day_green">#0D4526</color>
+    <color name="day_primary">#98EBBE</color>
+    <color name="day_primary_variant">#66E19D</color>
+    <color name="day_onPrimary">#FF0A0A</color>
+    <color name="day_secondary">#2587C4</color>
+    <color name="day_secondary_variant">#2176AB</color>
+    <color name="day_onSecondary">#F0EBBA</color>
+    <color name="day_onBackground">@color/night_background</color>
+
+    <color name="night_background">#1F3333</color>
+    <color name="night_red">#FF1F1F</color>
+    <color name="night_green">#3DDC84</color>
+    <color name="night_primary">#146639</color>
+    <color name="night_primary_variant">#0D4426</color>
+    <color name="night_onPrimary">#FF7070</color>
+    <color name="night_secondary">#65B2E2</color>
+    <color name="night_secondary_variant">#1B5D88</color>
+    <color name="night_onSecondary">#C9B92C</color>
+    <color name="night_onBackground">@color/day_background</color>
+</resources>

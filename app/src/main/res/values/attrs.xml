@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppTheme">
+        <attr name="greenButtonColor" format="color" />
+        <attr name="redButtonColor" format="color" />
+        <attr name="contrastColor" format="color" />
+        <attr name="bottomNavColor" format="color" />
+    </declare-styleable>
+</resources>

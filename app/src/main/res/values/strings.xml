@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Exercise Routine</string>
+    <string name="plus_icon">&#xf1f8;</string>
+    <string name="see_exercise">Ver exercícios</string>
+    <string name="add_exercises">Adicionar exercícios</string>
+    <string name="add_exercise">Adicionar exercício</string>
+    <string name="body_part">Parte do corpo</string>
+    <string name="click_and_add">Você não possui nenhuma rotina criada, clique em adicionar e crie uma</string>
+    <string name="body_part_label">Músculo</string>
+    <string name="type_label">Tipo</string>
+    <string name="diff_label">Dificuldade</string>
+    <string name="search">buscar</string>
+    <string name="workout_name">Nome do treino</string>
+    <string name="obtain_explanation">Insira as informações acima e clique no botão buscar para obter uma lista de exercícios</string>
+    <string name="empty_explanation">Infelizmente não obtivemos resultados, tente mudar os parâmetros</string>
+    <string name="exercise">Exercício</string>
+    <string name="equip">Equipamento</string>
+    <string name="save">salvar</string>
+    <string name="add">Adicionar</string>
+    <string name="instruction_label">Instruções</string>
+    <string name="annotation_label">Anotações</string>
+    <string name="reps_label">Repetições</string>
+    <string name="weight_label">Carga</string>
+</resources>

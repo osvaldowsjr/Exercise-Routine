@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ExerciseRoutine" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="backgroundColor">@color/night_background</item>
+        <item name="colorPrimary">@color/night_primary</item>
+        <item name="colorPrimaryVariant">@color/night_primary_variant</item>
+        <item name="colorOnPrimary">@color/night_onPrimary</item>
+        <item name="greenButtonColor">@color/night_green</item>
+        <item name="redButtonColor">@color/night_red</item>
+        <item name="colorSecondary">@color/night_secondary</item>
+        <item name="colorSecondaryVariant">@color/night_secondary_variant</item>
+        <item name="colorOnSecondary">@color/night_onSecondary</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorOnBackground">@color/night_onBackground</item>
+        <item name="colorOnSurfaceVariant">@color/day_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/day_primary_variant</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
+    </style>
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalBottomSheetDialog</item>
+    </style>
+
+</resources>
