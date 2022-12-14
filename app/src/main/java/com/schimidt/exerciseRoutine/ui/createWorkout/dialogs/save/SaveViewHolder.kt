@@ -19,8 +19,13 @@ class SaveViewHolder(val binding: SaveExerciseItemBinding) : RecyclerView.ViewHo
         binding.seriesLabel.text = seriesString
         binding.weightLabel.text = weightString
 
-        MaterialAlertDialogBuilder(context)
-            .setView(InformationView(context))
-            .show()
+
+        binding.infoButton.setOnClickListener {
+            val infoView = InformationView(context)
+            infoView.setupExercise(exercise)
+            MaterialAlertDialogBuilder(context)
+                .setView(infoView)
+                .show()
+        }
     }
 }
